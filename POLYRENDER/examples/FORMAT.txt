@@ -1,0 +1,22 @@
+N_OBJECTS
+CAMERA_X CAMERA_Y CAMERA_Z              # camera placement
+CAMERA_THETA CAMERA_PHI			# angle w/ positive z axis, positive x axis respectively
+				     ***MANDATORY WHITESPACE
+RED_VALUE GREEN_VALUE BLUE_VALUE        # select color
+OBJECT_1_GEOMETRY			# choose geometry from cube, pyra, or tetra
+POS_X POS_Y POS_Z                       # translate obstacle
+ROTATE_X ROTATE_Y ROTATE_Z		# rotate around x, y, z axis respectively
+SCALE_X SCALE_Y SCALE_Z			# scale along x, y, z axis respectively
+				     ***MANDATORY WHITESPACE
+RED_VALUE GREEN_VALUE BLUE_VALUE        #same parameters for volume 2
+OBJECT_1_GEOMETRY			
+POS_X POS_Y POS_Z                 
+ROTATE_X ROTATE_Y ROTATE_Z
+SCALE_X SCALE_Y SCALE_Z			
+...
+...
+...
+
+
+
+
